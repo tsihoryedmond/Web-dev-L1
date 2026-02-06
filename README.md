@@ -1,67 +1,84 @@
-pizza coders
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <title>Présentation - Kemira</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizza Coder's</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #161b22;
+            border-radius: 10px;
+        }
+        h1, h2 {
+            color: #58a6ff;
+        }
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .skills span {
+            display: inline-block;
+            background: #21262d;
+            padding: 6px 12px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.8em;
+            color: #8b949e;
+        }
+    </style>
 </head>
 <body>
-    <!-- En-tête de la page -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <h1>👋 Bonjour, moi c’est kemira</h1>
+        <p>
+            Développeur·se passionné·e par le web, le code propre et les projets open-source.
+            J’aime apprendre, expérimenter et partager mes connaissances.
+        </p>
 
-    <!-- Section Accueil -->
-    <section id="accueil">
-        <h1>Bienvenue chez Pizza Coder's</h1>
-        <p>Les meilleures pizzas codées juste pour vous !</p>
-    </section>
+        <h2>🚀  j'ai 20 ans</h2>
+        <ul>
+            <li>💻 Développement web (front / back)</li>
+            <li>📚 En apprentissage constant</li>
+            <li>🌍 Intéressé·e par les projets collaboratifs</li>
+        </ul>
 
-    <!-- Section Menu -->
-    <section id="menu">
-        <h2>Notre Menu</h2>
-        <div class="pizza">
-            <h3>Pizza Margherita</h3>
-            <p>Tomate, mozzarella, basilic frais.</p>
+        <h2>🛠️ spécialisée en hacking</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Git / GitHub</span>
+            <span>Python</span>
         </div>
-        <div class="pizza">
-            <h3>Pizza Pepperoni</h3>
-            <p>Pepperoni, mozzarella, sauce tomate.</p>
-        </div>
-        <div class="pizza">
-            <h3>Pizza Végétarienne</h3>
-            <p>Poivrons, olives, champignons, tomate, mozzarella.</p>
-        </div>
-    </section>
 
-    <!-- Section Contact -->
-    <section id="contact">
-        <h2>Contactez-nous</h2>
-        <form action="#" method="POST">
-            <label for="nom">Votre Nom :</label>
-            <input type="text" id="nom" name="nom" required>
-            
-            <label for="email">Votre Email :</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Envoyer</button>
-        </form>
-    </section>
+        <h2>📫 +261383597761</h2>
+        <p>
+            GitHub : <a href="https://github.com/kemira" target="_blank">github.com/ton-pseudo</a><br>
+            Email : <a href="mailto: lalatianamiadana@gmail.com">tonemail@email.com</a>
+        </p>
 
-    <!-- Pied de page -->
-    <footer>
-        <p>&copy; 2026 Pizza Coder's - Tous droits réservés.</p>
-    </footer>
+        <footer>
+            © 2026 – Ton Nom
+        </footer>
+    </div>
 </body>
 </html>
+
